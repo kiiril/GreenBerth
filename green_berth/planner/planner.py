@@ -6,22 +6,23 @@ import math
 
 EF_CO2 = 3.114
 
-def predict_turnaround_in_hours():
-    df = pd.read_csv(
-        "notebooks/data/test_input.csv",
-        dtype={
-            "imo": "int32",
-            "company_name": "object",
-            "ship_type": "object",
-            "gt": "int64",
-            "dwt": "int64",
-            "length": "int64",
-            "width": "int64",
-            "age": "int64",
-            "fuel_consumption": "float64",
-        },
-        parse_dates=["eta"]
-    )
+def predict_turnaround_in_hours(df=None):
+    if df is None:
+        df = pd.read_csv(
+            "notebooks/data/test_input.csv",
+            dtype={
+                "imo": "int32",
+                "company_name": "object",
+                "ship_type": "object",
+                "gt": "int64",
+                "dwt": "int64",
+                "length": "int64",
+                "width": "int64",
+                "age": "int64",
+                "fuel_consumption": "float64",
+            },
+            parse_dates=["eta"]
+        )
 
     model = joblib.load("notebooks/models/trained.pkl")
 
@@ -150,9 +151,24 @@ def plan(number_of_berths):
     if status not in (cp_model.OPTIMAL, cp_model.FEASIBLE):
         raise RuntimeError("No feasible schedule found")
 
+    # if status in (cp_model.OPTIMAL, cp_model.FEASIBLE):
+    #     print("Solution found.")
+    #     print("Schedule:")
+    #     for i, ship in df.iterrows():
+    #         if i in pres:
+    #             for b in range(number_of_berths):
+    #                 if solver.Value(pres[i][b]):
+    #                     start_time = horizon_start + timedelta(minutes=solver.Value(start[i][b]) * time_unit_min)
+    #                     dur_slots = int(ship["pred_turnaround_h"] * 60 / time_unit_min)
+    #                     end_time = start_time + timedelta(minutes=dur_slots * time_unit_min)
+    #                     wait_time = solver.Value(wait_slots[i][b]) * time_unit_min / 60
+    #                     print(
+    #                         f"Ship {i} assigned to Berth {b}: Start={start_time.strftime('%Y-%m-%d %H:%M')}, End={end_time.strftime('%Y-%m-%d %H:%M')}, Wait={wait_time:.2f} hours")
+    #
+    #     print(f"Objective value: {solver.ObjectiveValue()}")
+
     if status in (cp_model.OPTIMAL, cp_model.FEASIBLE):
-        print("Solution found.")
-        print("Schedule:")
+        schedule_by_berth = {b: [] for b in range(number_of_berths)}
         for i, ship in df.iterrows():
             if i in pres:
                 for b in range(number_of_berths):
@@ -161,15 +177,29 @@ def plan(number_of_berths):
                         dur_slots = int(ship["pred_turnaround_h"] * 60 / time_unit_min)
                         end_time = start_time + timedelta(minutes=dur_slots * time_unit_min)
                         wait_time = solver.Value(wait_slots[i][b]) * time_unit_min / 60
-                        print(
-                            f"Ship {i} assigned to Berth {b}: Start={start_time.strftime('%Y-%m-%d %H:%M')}, End={end_time.strftime('%Y-%m-%d %H:%M')}, Wait={wait_time:.2f} hours")
+                        schedule_by_berth[b].append({
+                            "ship": i,
+                            "start": start_time,
+                            "end": end_time.strftime('%Y-%m-%d %H:%M'),
+                            "wait": wait_time,
+                        })
 
-        print(f"Objective value: {solver.ObjectiveValue()}")
+        for b in schedule_by_berth:
+            schedule_by_berth[b].sort(key=lambda x: x["start"])
+            schedule_by_berth[b] = [{
+                "ship": x["ship"],
+                "start": x["start"].strftime('%Y-%m-%d %H:%M'),
+                "end": x["end"],
+                "wait": x["wait"],
+            } for x in schedule_by_berth[b]]
+        result = [schedule_by_berth[b] for b in sorted(schedule_by_berth.keys())]
+        return result
+    return None
 
 
 if __name__ == "__main__":
     number_of_berths = 3
-    plan(number_of_berths)
+    print(plan(number_of_berths))
 
 
 
