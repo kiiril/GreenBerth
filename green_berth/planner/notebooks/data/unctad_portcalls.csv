@@ -1,0 +1,202 @@
+Economy_Label,CommercialMarket_Label,Average_age_of_vessels_years_Value,Median_time_in_port_days_Value,Average_size_GT_of_vessels_Value,Average_cargo_carrying_capacity_dwt_per_vessel_Value,Average_container_carrying_capacity_TEU_per_container_ship_Value,Maximum_size_GT_of_vessels_Value,Maximum_cargo_carrying_capacity_dwt_of_vessels_Value,Maximum_container_carrying_capacity_TEU_of_container_ships_Value
+"World","All ships",18,0.99,14475,25662,3576,237000,404389,24116
+"World","Liquid bulk carriers",15,0.99,16122,28406,,170618,323514,
+"World","Liquefied petroleum gas carriers",16,1.04,11002,12303,,60784,64220,
+"World","Liquefied natural gas carriers",12,1.12,93190,72828,,168189,155159,
+"World","Dry bulk carriers",15,2.13,32746,58623,,204014,404389,
+"World","Dry breakbulk carriers",21,1.08,5610,7799,,149944,175897,
+"World","Roll-on/ roll-off ships",18,,26257,10443,,100430,55828,
+"World","Container ships",15,0.71,38683,,3576,237000,,24116
+"World","Passenger ships",20,,8377,,,235600,,
+"Australia","All ships",17,1.54,34502,82240,4334,168666,297902,9661
+"Australia","Liquid bulk carriers",9,1.3,24799,42043,,85496,162342,
+"Australia","Liquefied petroleum gas carriers",8,0.83,12940,13820,,53573,58811,
+"Australia","Liquefied natural gas carriers",11,1.19,112020,85667,,149367,97955,
+"Australia","Dry bulk carriers",11,1.67,60018,112233,,152311,297902,
+"Australia","Dry breakbulk carriers",13,1.94,17202,25894,,66870,80500,
+"Australia","Roll-on/ roll-off ships",11,,40129,14833,,76420,43878,
+"Australia","Container ships",15,1.44,47224,,4334,111249,,9661
+"Australia","Passenger ships",27,,8167,,,168666,,
+"Canada","All ships",25,0.57,11545,33981,5469,225282,318918,16000
+"Canada","Liquid bulk carriers",13,1.07,23240,38649,,161593,318918,
+"Canada","Liquefied petroleum gas carriers",9,1.56,45810,52447,,50174,58899,
+"Canada","Dry bulk carriers",22,0.36,28039,48148,,109982,210963,
+"Canada","Dry breakbulk carriers",9,0.14,9255,11016,,49091,81279,
+"Canada","Roll-on/ roll-off ships",15,,14330,6859,,100430,55828,
+"Canada","Container ships",15,1.46,59803,,5469,176546,,16000
+"Canada","Passenger ships",28,,7640,,,225282,,
+"China","All ships",14,1.05,33683,46551,4561,237000,404389,24116
+"China","Liquid bulk carriers",13,1.11,21119,37036,,170618,323514,
+"China","Liquefied petroleum gas carriers",14,1.02,10025,10878,,60784,64220,
+"China","Liquefied natural gas carriers",10,1.16,96307,76569,,168189,155159,
+"China","Dry bulk carriers",14,2.01,43030,78610,,204014,404389,
+"China","Dry breakbulk carriers",17,1.32,11160,15617,,149944,175897,
+"China","Roll-on/ roll-off ships",14,,27181,9672,,89797,47528,
+"China","Container ships",13,0.6,48856,,4561,237000,,24116
+"China","Passenger ships",13,,19392,,,171598,,
+"Croatia","All ships",18,1.31,3901,21393,4277,157844,306506,15500
+"Croatia","Liquid bulk carriers",16,1.03,17197,29495,,157844,306506,
+"Croatia","Liquefied natural gas carriers",7,2.45,112138,91365,,120709,95788,
+"Croatia","Dry bulk carriers",22,2.24,17579,30032,,94090,182820,
+"Croatia","Dry breakbulk carriers",23,2.81,5141,7022,,149944,175897,
+"Croatia","Container ships",17,0.67,46467,,4277,153774,,15500
+"Croatia","Passenger ships",18,,3511,,,155873,,
+"Denmark","All ships",22,0.74,9990,7491,1978,214286,180086,19630
+"Denmark","Liquid bulk carriers",18,0.67,7685,12229,,93759,164787,
+"Denmark","Liquefied petroleum gas carriers",13,1.27,3844,4240,,13549,15070,
+"Denmark","Dry bulk carriers",12,0.81,10069,16442,,94863,180086,
+"Denmark","Dry breakbulk carriers",24,0.8,3104,4313,,49091,63581,
+"Denmark","Roll-on/ roll-off ships",18,,23619,12755,,72708,48988,
+"Denmark","Container ships",17,0.57,21745,,1978,214286,,19630
+"Denmark","Passenger ships",22,,10400,,,183200,,
+"France","All ships",18,1.14,23198,18991,5579,236583,320916,24116
+"France","Liquid bulk carriers",13,1.05,13965,24091,,166639,320916,
+"France","Liquefied petroleum gas carriers",13,1.22,8973,9993,,53573,58312,
+"France","Liquefied natural gas carriers",9,1.14,105836,82753,,163922,130442,
+"France","Dry bulk carriers",15,3.25,24441,42694,,106251,207867,
+"France","Dry breakbulk carriers",20,1.53,4508,6514,,149944,175897,
+"France","Roll-on/ roll-off ships",19,,27389,11440,,76420,45200,
+"France","Container ships",14,0.85,61200,,5579,236583,,24116
+"France","Passenger ships",19,,24031,,,228081,,
+"Germany","All ships",22,0.64,13133,9747,5015,237000,321300,24004
+"Germany","Liquid bulk carriers",19,0.44,4738,8675,,170611,321300,
+"Germany","Liquefied petroleum gas carriers",16,0.87,5300,5950,,47789,54650,
+"Germany","Liquefied natural gas carriers",11,1.21,33988,28691,,135977,98936,
+"Germany","Dry bulk carriers",13,2.52,28955,49766,,109768,209338,
+"Germany","Dry breakbulk carriers",28,0.6,3621,5087,,149944,175897,
+"Germany","Roll-on/ roll-off ships",17,,32947,13411,,100430,55828,
+"Germany","Container ships",15,1.02,54461,,5015,237000,,24004
+"Germany","Passenger ships",22,,11990,,,206285,,
+"Greece","All ships",24,0.83,8681,7421,4376,237000,319359,24004
+"Greece","Liquid bulk carriers",23,0.61,5153,8069,,161692,319359,
+"Greece","Liquefied petroleum gas carriers",26,0.97,5165,6189,,25004,28702,
+"Greece","Liquefied natural gas carriers",11,1.17,104182,83840,,144828,98954,
+"Greece","Dry bulk carriers",28,0.69,7119,12011,,94232,182511,
+"Greece","Dry breakbulk carriers",34,1.14,2968,4154,,40350,64942,
+"Greece","Roll-on/ roll-off ships",35,,15791,6470,,76420,48988,
+"Greece","Container ships",17,1.03,46846,,4376,237000,,24004
+"Greece","Passenger ships",23,,8123,,,186364,,
+"Indonesia","All ships",20,1.26,7833,16885,1280,176435,319247,16000
+"Indonesia","Liquid bulk carriers",16,1.32,8589,13471,,161175,319247,
+"Indonesia","Liquefied petroleum gas carriers",21,1.08,8254,9047,,53573,59479,
+"Indonesia","Liquefied natural gas carriers",17,1.42,94456,72581,,136739,98954,
+"Indonesia","Dry bulk carriers",18,2.69,25723,45358,,109716,211135,
+"Indonesia","Dry breakbulk carriers",21,1.16,5134,6915,,57934,72562,
+"Indonesia","Roll-on/ roll-off ships",29,,10291,4874,,75528,32956,
+"Indonesia","Container ships",16,0.97,14237,,1280,176435,,16000
+"Indonesia","Passenger ships",21,,5016,,,130818,,
+"Italy","All ships",28,1.28,10908,20716,3963,236184,319202,24000
+"Italy","Liquid bulk carriers",19,1.26,18506,31686,,160087,319202,
+"Italy","Liquefied petroleum gas carriers",15,1.58,8684,9778,,48963,54656,
+"Italy","Liquefied natural gas carriers",14,2.07,56587,43038,,117564,96889,
+"Italy","Dry bulk carriers",15,3.46,25106,43325,,109534,210000,
+"Italy","Dry breakbulk carriers",20,1.99,6536,9144,,149944,175897,
+"Italy","Roll-on/ roll-off ships",14,,36648,13635,,89797,47528,
+"Italy","Container ships",17,0.9,44002,,3963,236184,,24000
+"Italy","Passenger ships",30,,8043,,,228081,,
+"Japan","All ships",14,0.41,10439,15001,1614,236500,327017,15500
+"Japan","Liquid bulk carriers",12,0.32,8289,14024,,169919,320299,
+"Japan","Liquefied petroleum gas carriers",13,0.37,6955,7612,,54634,62500,
+"Japan","Liquefied natural gas carriers",14,1.01,65790,47780,,163922,130442,
+"Japan","Dry bulk carriers",14,0.9,17113,29548,,161294,327017,
+"Japan","Dry breakbulk carriers",14,1.14,6878,9140,,66870,80500,
+"Japan","Roll-on/ roll-off ships",12,,16926,7350,,77644,43878,
+"Japan","Container ships",13,0.35,16602,,1614,236500,,15500
+"Japan","Passenger ships",16,,5313,,,171598,,
+"Korea, Republic of","All ships",15,0.85,19713,21528,2990,236583,326932,24000
+"Korea, Republic of","Liquid bulk carriers",14,0.74,13791,23777,,167578,323514,
+"Korea, Republic of","Liquefied petroleum gas carriers",14,0.86,8641,9450,,55833,62500,
+"Korea, Republic of","Liquefied natural gas carriers",13,1.03,108541,85344,,168189,155159,
+"Korea, Republic of","Dry bulk carriers",13,2.71,33194,59825,,161294,326932,
+"Korea, Republic of","Dry breakbulk carriers",19,1.16,5496,7984,,149944,175897,
+"Korea, Republic of","Roll-on/ roll-off ships",21,,28620,11686,,89797,47528,
+"Korea, Republic of","Container ships",14,0.65,32172,,2990,236583,,24000
+"Korea, Republic of","Passenger ships",11,,16371,,,171598,,
+"Netherlands (Kingdom of the)","All ships",19,0.54,12540,15007,3151,237000,324954,24116
+"Netherlands (Kingdom of the)","Liquid bulk carriers",17,0.54,9034,17792,,170611,323182,
+"Netherlands (Kingdom of the)","Liquefied petroleum gas carriers",15,1.02,6678,7383,,52506,59504,
+"Netherlands (Kingdom of the)","Liquefied natural gas carriers",7,1.05,79209,61757,,163922,130211,
+"Netherlands (Kingdom of the)","Dry bulk carriers",12,1.07,36908,66062,,173756,324954,
+"Netherlands (Kingdom of the)","Dry breakbulk carriers",25,0.37,3781,5570,,91784,116173,
+"Netherlands (Kingdom of the)","Roll-on/ roll-off ships",24,,19116,7335,,89797,48988,
+"Netherlands (Kingdom of the)","Container ships",17,0.8,34096,,3151,237000,,24116
+"Netherlands (Kingdom of the)","Passenger ships",16,,14580,,,206285,,
+"Norway","All ships",14,0.43,3861,7636,790,184089,319319,2474
+"Norway","Liquid bulk carriers",17,0.66,11959,19463,,166639,319319,
+"Norway","Liquefied petroleum gas carriers",11,0.78,6893,7388,,37366,42543,
+"Norway","Liquefied natural gas carriers",16,0.52,22458,16544,,121597,95289,
+"Norway","Dry bulk carriers",15,0.86,18520,30715,,109768,209260,
+"Norway","Dry breakbulk carriers",24,0.34,2940,3528,,84503,98370,
+"Norway","Roll-on/ roll-off ships",19,,10711,6557,,72408,27295,
+"Norway","Container ships",18,0.3,8516,,790,25756,,2474
+"Norway","Passenger ships",14,,3732,,,184089,,
+"Philippines","All ships",17,0.81,6941,10401,1769,151094,297461,7092
+"Philippines","Liquid bulk carriers",12,0.82,6180,9843,,65696,115024,
+"Philippines","Liquefied petroleum gas carriers",17,0.7,7248,8218,,54696,58811,
+"Philippines","Dry bulk carriers",14,4.71,27368,48197,,151094,297461,
+"Philippines","Dry breakbulk carriers",17,0.68,3552,4724,,66870,71691,
+"Philippines","Roll-on/ roll-off ships",27,,20669,8790,,76299,32956,
+"Philippines","Container ships",16,0.82,18903,,1769,73172,,7092
+"Philippines","Passenger ships",19,,3689,,,93502,,
+"Russian Federation","All ships",26,1.55,12202,19068,1295,128975,206204,4843
+"Russian Federation","Liquid bulk carriers",24,1.17,16254,28134,,87146,166467,
+"Russian Federation","Liquefied petroleum gas carriers",20,2.13,12520,15075,,26515,38427,
+"Russian Federation","Liquefied natural gas carriers",11,1.13,102420,74188,,128975,97000,
+"Russian Federation","Dry bulk carriers",18,2.8,27620,48524,,104732,206204,
+"Russian Federation","Dry breakbulk carriers",30,1.82,4569,6118,,48292,72562,
+"Russian Federation","Roll-on/ roll-off ships",31,,9730,5449,,20729,14107,
+"Russian Federation","Container ships",19,1.56,13608,,1295,54519,,4843
+"Russian Federation","Passenger ships",26,,7406,,,38557,,
+"Singapore","All ships",13,0.73,26306,17224,5345,237000,321300,24116
+"Singapore","Liquid bulk carriers",11,0.64,10368,17210,,170611,321300,
+"Singapore","Liquefied petroleum gas carriers",12,1.1,9263,10559,,52666,58899,
+"Singapore","Liquefied natural gas carriers",12,1.18,102510,80705,,163922,130211,
+"Singapore","Dry bulk carriers",13,0.76,14854,24465,,111454,210000,
+"Singapore","Dry breakbulk carriers",16,0.73,7771,10411,,149944,175897,
+"Singapore","Roll-on/ roll-off ships",16,,53226,17523,,76420,43878,
+"Singapore","Container ships",14,0.85,57460,,5345,237000,,24116
+"Singapore","Passenger ships",11,,114518,,,171598,,
+"Spain","All ships",18,0.86,17569,16489,3194,237000,318744,24116
+"Spain","Liquid bulk carriers",13,0.86,11632,19147,,163209,318744,
+"Spain","Liquefied petroleum gas carriers",13,1.06,7380,8316,,57494,59138,
+"Spain","Liquefied natural gas carriers",11,1.05,95463,74098,,141671,107160,
+"Spain","Dry bulk carriers",16,2.04,24934,42981,,107567,208263,
+"Spain","Dry breakbulk carriers",17,1.27,5325,7469,,66870,73296,
+"Spain","Roll-on/ roll-off ships",13,,26277,9079,,89797,48988,
+"Spain","Container ships",17,0.6,34894,,3194,237000,,24116
+"Spain","Passenger ships",19,,15672,,,232000,,
+"Sweden","All ships",23,0.84,17666,9132,1709,214286,319319,19630
+"Sweden","Liquid bulk carriers",15,0.67,8609,12870,,164580,319319,
+"Sweden","Liquefied petroleum gas carriers",13,0.91,8548,9361,,54000,62500,
+"Sweden","Dry bulk carriers",20,0.58,7529,12008,,44616,82219,
+"Sweden","Dry breakbulk carriers",21,1.13,3827,5463,,39433,61250,
+"Sweden","Roll-on/ roll-off ships",18,,31850,12824,,76420,38500,
+"Sweden","Container ships",18,0.67,18512,,1709,214286,,19630
+"Sweden","Passenger ships",25,,21742,,,145000,,
+"Turkiye","All ships",24,1.26,6351,17701,2815,236080,319471,19462
+"Turkiye","Liquid bulk carriers",15,1.32,18853,31913,,169919,319471,
+"Turkiye","Liquefied petroleum gas carriers",19,1.35,16825,19772,,52506,59504,
+"Turkiye","Liquefied natural gas carriers",9,1.23,110239,88732,,130200,107662,
+"Turkiye","Dry bulk carriers",17,3.68,24363,42005,,150918,297541,
+"Turkiye","Dry breakbulk carriers",28,1.48,4524,6361,,66870,71954,
+"Turkiye","Roll-on/ roll-off ships",26,,25299,9893,,76299,45200,
+"Turkiye","Container ships",18,0.65,30488,,2815,236080,,19462
+"Turkiye","Passenger ships",25,,1931,,,167704,,
+"United Kingdom","All ships",19,1.11,14300,12752,3467,237000,320159,24116
+"United Kingdom","Liquid bulk carriers",15,1.09,13077,21680,,170611,320159,
+"United Kingdom","Liquefied petroleum gas carriers",11,1.06,6769,7266,,56081,60138,
+"United Kingdom","Liquefied natural gas carriers",8,1.19,89918,71749,,168189,154900,
+"United Kingdom","Dry bulk carriers",16,2.6,23988,40853,,94879,182983,
+"United Kingdom","Dry breakbulk carriers",19,1.51,3551,4950,,149944,175897,
+"United Kingdom","Roll-on/ roll-off ships",16,,24214,9862,,100430,55828,
+"United Kingdom","Container ships",17,0.68,38169,,3467,237000,,24116
+"United Kingdom","Passenger ships",20,,12890,,,185206,,
+"United States of America","All ships",27,1.54,18671,49816,5691,235600,323183,19224
+"United States of America","Liquid bulk carriers",12,1.71,37291,64920,,170611,323183,
+"United States of America","Liquefied petroleum gas carriers",9,1.81,31394,35414,,60784,63770,
+"United States of America","Liquefied natural gas carriers",6,1.36,106815,85368,,149367,121963,
+"United States of America","Dry bulk carriers",19,2.25,29458,52746,,108901,209854,
+"United States of America","Dry breakbulk carriers",19,1.88,12994,17297,,91784,116173,
+"United States of America","Roll-on/ roll-off ships",15,,58946,21502,,100430,55828,
+"United States of America","Container ships",15,1.08,63680,,5691,194308,,19224
+"United States of America","Passenger ships",31,,9594,,,235600,,
